@@ -35,12 +35,16 @@
 
 
 ####Contact us
-Fore more information, please visit [www.toolwiz.com](http://www.toolwiz.com/)
+Fore more information, please visit [www.toolwiz.com](http://www.toolwiz.com/).
+
 If you have any question about LockWiz, please send an email to admin@btows.com
 
 
 ## Library
 To config this project, you need to add three addtional libraries:
+
 1. [MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary)
+
 2. [PhotoView](https://github.com/chrisbanes/PhotoView)
+
 3. [Wheel](https://github.com/chemalarrea/Android-wheel)
