@@ -1,15 +1,19 @@
 #LockWiz - Smart App Lock
 ##About
-![https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=h80-rw](https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=w80-rw)
+
+![ic_launcher.png](./res/drawable-hdpi/ic_launcher.png)
+
 <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
 ###Screenshot
-![https://lh3.googleusercontent.com/9gqRSiFNOdfKE8bYZaOx3Kfg-09OBgibxuUio-Y7HcyIrY29NYBbEBl0gYAzX6bbJA=h310-rw](https://lh3.googleusercontent.com/9gqRSiFNOdfKE8bYZaOx3Kfg-09OBgibxuUio-Y7HcyIrY29NYBbEBl0gYAzX6bbJA=h500-rw)
-![https://lh3.googleusercontent.com/qnbe8Ov78S_AWUGpR7giDxMlEDFtH1exsFdy_Uacb6j6BKJBSGBKSvfKgv_Yqebly7I=h310-rw](https://lh3.googleusercontent.com/qnbe8Ov78S_AWUGpR7giDxMlEDFtH1exsFdy_Uacb6j6BKJBSGBKSvfKgv_Yqebly7I=h500-rw)
-![https://lh3.googleusercontent.com/mRAgm6XwKig8ucmk8qu8j_5bue4kNda6Y8kVQhIpGjesKijP-82NLQK8i14HyZvSxUMn=h310-rw](https://lh3.googleusercontent.com/mRAgm6XwKig8ucmk8qu8j_5bue4kNda6Y8kVQhIpGjesKijP-82NLQK8i14HyZvSxUMn=h500-rw)
-![https://lh3.googleusercontent.com/sOkA71kelvn-hSmWZy-66nn1DOlp53sqjRTyCaU0A_a_55pFuDhZf-hGV8t7BWMP2UN4=h900-rw](https://lh3.googleusercontent.com/sOkA71kelvn-hSmWZy-66nn1DOlp53sqjRTyCaU0A_a_55pFuDhZf-hGV8t7BWMP2UN4=h500-rw)
+![5.pic_hd.jpg](./img/5.pic_hd.jpg)
 
-##INFORMATION
+![6.pic_hd.jpg](./img/6.pic_hd.jpg)
+
+![7.pic_hd.jpg](./img/7.pic_hd.jpg)
+
+##Information
+
 ###PRIVACY IS A BASIC HUMAN RIGHT
 
 **LockWiz** is an amazing way to protect your privacy and security on your Android phone. With LockWiz, you will never worry too much about the leakage of your personal sensitive date. Once you set lock for individual APPs and encrypt multimedia files – nobody will be able to access them without a correct master password - giving you entire control over who sees what.
