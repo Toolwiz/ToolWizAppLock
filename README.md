@@ -1,11 +1,12 @@
 #LockWiz - Smart App Lock
 ##About
-![https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=h160-rw](https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=w100-rw)
+![https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=h80-rw](https://lh3.googleusercontent.com/w6UTOcNl15EFX_mw6_mE64oeSWDeqfv81N-iN65YgqB-PqBLL-Lg0EXwCqswuETzGXc=w80-rw)
 <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
 ###Screenshot
 ![https://lh3.googleusercontent.com/9gqRSiFNOdfKE8bYZaOx3Kfg-09OBgibxuUio-Y7HcyIrY29NYBbEBl0gYAzX6bbJA=h310-rw](https://lh3.googleusercontent.com/9gqRSiFNOdfKE8bYZaOx3Kfg-09OBgibxuUio-Y7HcyIrY29NYBbEBl0gYAzX6bbJA=h500-rw)
 ![https://lh3.googleusercontent.com/qnbe8Ov78S_AWUGpR7giDxMlEDFtH1exsFdy_Uacb6j6BKJBSGBKSvfKgv_Yqebly7I=h310-rw](https://lh3.googleusercontent.com/qnbe8Ov78S_AWUGpR7giDxMlEDFtH1exsFdy_Uacb6j6BKJBSGBKSvfKgv_Yqebly7I=h500-rw)
+![https://lh3.googleusercontent.com/mRAgm6XwKig8ucmk8qu8j_5bue4kNda6Y8kVQhIpGjesKijP-82NLQK8i14HyZvSxUMn=h310-rw](https://lh3.googleusercontent.com/mRAgm6XwKig8ucmk8qu8j_5bue4kNda6Y8kVQhIpGjesKijP-82NLQK8i14HyZvSxUMn=h500-rw)
 ![https://lh3.googleusercontent.com/sOkA71kelvn-hSmWZy-66nn1DOlp53sqjRTyCaU0A_a_55pFuDhZf-hGV8t7BWMP2UN4=h900-rw](https://lh3.googleusercontent.com/sOkA71kelvn-hSmWZy-66nn1DOlp53sqjRTyCaU0A_a_55pFuDhZf-hGV8t7BWMP2UN4=h500-rw)
 
 ##INFORMATION
