@@ -1,4 +1,4 @@
-#LockWiz - Smart App Lock
+#ToolWizAppLock - Smart App Lock
 ##About
 
 ![ic_launcher.png](./res/drawable-hdpi/ic_launcher.png)
