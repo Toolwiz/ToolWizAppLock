@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <!-- number -->
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <!-- number -->
+
+    <string name="app_name">LockWiz</string>
+    <string name="hello_world">Hello,world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Gesture code starting -->
+    <string name="setup_gesture_code">Choose a pattern</string>
+    <string name="setup_gesture_pattern">Draw a pattern</string>
+    <string name="setup_gesture_pattern_again">Please re-draw your pattern</string>
+    <string name="forget_gesture_code">Forgot Pattern</string>
+    <string name="use_other_account_login">Use another account</string>
+    <string name="set_gesture_pattern">Draw a pattern to unlock </string>
+    <string name="set_gesture_pattern_reason">Set up a pattern lock from unauthorized access</string>
+    <string name="reset_gesture_code">Your new unlock pattern</string>
+    <!-- End -->
+
+    <string name="lockscreen_access_pattern_start">"Draw an unlock pattern"</string>
+    <string name="lockscreen_access_pattern_cleared">"Pattern Ereased"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"Pattern Saved"</string>
+    <string name="lockpattern_retry_button_text">"Retry"</string>
+    <string name="lockpattern_continue_button_text">"Continue"</string>
+    <string name="lockpattern_confirm_button_text">"Confirm"</string>
+    <string name="lockpattern_recording_intro_header">"Draw a pattern to unlock"</string>
+    <string name="lockpattern_settings_help_how_to_record">"How to draw an unlock pattern"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"Connect at least 4 dots.Try agin."</string>
+    <string name="lockpattern_pattern_entered_header">"Pattern Recorded"</string>
+    <string name="lockpattern_need_to_confirm">"Draw pattern again to confirm"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"Sorry,try again"</string>
+    <string name="lockpattern_pattern_confirmed_header">"Confirm saved pattern"</string>
+    <string name="lockpattern_recording_inprogress">"Release finger when done"</string>
+    <string name="gesture_password_guide_text">Set up a unlock pattern to protect your privacy from being </string>
+    <string name="gesture_password_guide_creat_btn">Set up a pattern lock</string>
+
+    <!-- app lock -->
+    <string name="title_applock">App Lock</string>
+    <string name="default_sort">Default Sort</string>
+    <string name="first_tip1">Welcome to LockWiz.</string>
+    <string name="first_tip2">Set up your password first.</string>
+    <string name="txt_drawgesture">Draw an unlock pattern</string>
+    <string name="txt_ges2num">Switch to PIN</string>
+    <string name="txt_num2ges">Switch to Pattern</string>
+    <string name="lock_time">Time Lock</string>
+    <string name="lock_wifi">WiFi Lock</string>
+    <string name="lock_user">Guest Lock</string>
+    <string name="time_lock_edit">Edit Time Lock</string>
+    <string name="time_lock_add">Add Time Lock</string>
+    <string name="wifi_lock_add">Add WiFi Lock</string>
+    <string name="time_start">Start</string>
+    <string name="time_end">End</string>
+    <string name="time_repeat">Repeat</string>
+    <string name="lock_app">Apps</string>
+    <string name="lock_choose">Select</string>
+    <string name="lock_name">Name</string>
+    <string name="lock_hint">Enter</string>
+    <string name="week_1">Mon</string>
+    <string name="week_2">Tues</string>
+    <string name="week_3">Wed</string>
+    <string name="week_4">Thur</string>
+    <string name="week_5">Fri</string>
+    <string name="week_6">Sat</string>
+    <string name="week_7">Sun</string>
+    <string name="lock_done">OK</string>
+    <string name="lock_next">Next</string>
+    <string name="lock_edit">Edit</string>
+    <string name="lock_delete">Delete</string>
+    <string name="lock_add">Add</string>
+    <string name="title_time_lock">Time Lock</string>
+    <string name="title_wifi_lock">Wi-Fi Lock</string>
+    <string name="wifi_selete">Choose a network</string>
+
+    <!-- app setting -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_default"></string>
+    <string name="setleavetimetitle">Brief Exit</string>
+    <string name="normalqa_title">FAQ</string>
+    <string name="myprivate_title">Intruder</string>
+    <string name="myprivate_clear">Clear</string>
+    <string name="myprivate_notext">Nobody snooped on your privacy.</string>
+    <string name="server_title">Service</string>
+    <string name="server_startlock_title">Suspend Lock</string>
+    <string name="server_startlock_detail">Lock protection has been enabled</string>
+    <string name="server_unlock_title">Suspend Lock</string>
+    <string name="server_unlock_detail">Lock protection has been disabled</string>
+    <string name="pwdsetting_title">Password Settings</string>
+    <string name="pwdsetting_modify_title">Password Settings</string>
+    <string name="pwdsetting_modify_detail">Change your password style</string>
+    <string name="pwdsetting_modify_handler">Pattern</string>
+    <string name="pwdsetting_modify_number">PIN</string>
+    <string name="pwdsetting_notrue_title">Fake Password</string>
+    <string name="pwdsetting_notrue_detail">Fake password will be used to protect your locked applications</string>
+    <string name="pwdsetting_secret_title">Security Settings</string>
+    <string name="pwdsetting_secret_detail">Set Security Question and Answer</string>
+    <string name="pwdsetting_advance_title">Advanced</string>
+    <string name="pwdsetting_advance_tipsnewapp_title">New App Notification</string>
+    <string name="pwdsetting_advance_tipsnewapp_detail">One-tap to lock the new installed applications </string>
+    <string name="pwdsetting_advance_notipsnewapp_title">Notification</string>
+    <string name="pwdsetting_advance_notipsnewapp_detail">Notifications would not be prompted when installing a new application</string>
+    <string name="pwdsetting_advance_allowleave_title">Brief Exist</string>
+    <string name="pwdsetting_advance_allowleave_detail">No need to verify after brief exist</string>
+    <string name="pwdsetting_advance_noallowleave_title">Brief Exist</string>
+    <string name="pwdsetting_advance_noallowleave_detail">Auto-lock when re-entering LockWiz</string>
+    <string name="pwdsetting_advance_allowleavetime_title">Brief Exist Time</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_10second">10sec</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_30second">30sec</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_1minute">1min</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_2minute">2min</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_5minute">5min</string>
+    <string name="pwdsetting_advance_showappicon_title">Show LockWiz icon</string>
+    <string name="pwdsetting_advance_showappicon__detail">Show LockWiz icon on desktop</string>
+    <string name="pwdsetting_advance_hideappicon_title">Hide LockWiz icon</string>
+    <string name="pwdsetting_advance_hideappicon__detail">Hide LockWiz icon on desktop</string>
+    <string name="pwdsetting_advance_uninstallapp_title">Protection against accidental removal</string>
+    <string name="pwdsetting_advance_uninstallapp_detail">Protect LockWiz from removing accidentally </string>
+    <string name="pwdsetting_aboutour_title">About us</string>
+    <string name="pwdsetting_aboutour_feedback_title">Feedback</string>
+    <string name="pwdsetting_aboutour_feedback_detail">Please enter your comments on LockWiz</string>
+    <string name="pwdsetting_aboutour_qa_title">FAQ</string>
+    <string name="pwdsetting_aboutour_qa_detail">Read common questions and answers here</string>
+    <string name="pwdsetting_aboutour_version_title">Version check</string>
+    <string name="pwdsetting_aboutour_version_detail">Check for update</string>
+    <string name="pwdsetting_aboutour_version_hasnew">Update now</string>
+    <string name="pwdsetting_aboutour_version_hasno">This is the latest</string>
+    <string name="pwdsetting_aboutour_lookmyprivate_title">View Intruders</string>
+    <string name="pwdsetting_aboutour_lookmyprivate_detail">Unlock Error Log</string>
+    <string name="lookmyprivate_befor">Snooped</string>
+
+    <!-- app secret -->
+    <string name="secret_title">Security Settings</string>
+
+    <!-- app update -->
+    <string name="update_title">A new version is available</string>
+    <string name="update_buttontext">Update now</string>
+
+    <!-- app feedback -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_detailtitle">Thanks for your feedback.</string>
+    <string name="main_tx_back">Back</string>
+    <string name="feedback_thank">Thank</string>
+    <string name="umeng_fb_reply_content_hint">Please enter your comments</string>
+    <string name="default_reply">Please input your feedback or suggestion for our freeware here.We will reply you quickly in English when we receive it.</string>
+
+    <!-- app normalqa -->
+    <string name="noamalqa_content">1、How to protect LockWiz from being uninstalled? \n</string>
+
+    <!-- user lock -->
+    <string name="user_unlock_text1">Hi, I\'m your LockWiz！</string>
+    <string name="user_unlock_text2">You are not allowed to open it</string>
+    <string name="user_unlock_btn_cancel">Cancel</string>
+    <string name="user_unlock_btn_unlock">I\'m the master</string>
+    <string name="user_lock_open">Turn on Guest Mode</string>
+    <string name="choose_app">Select to lock</string>
+    <string name="user_lock_open_s">Activate</string>
+    <string name="toast_user_open">Guest Mode successfully activated</string>
+    <string name="toast_user_close">Guest Mode successfully deactivated</string>
+    <string name="guide_text_01"></string>
+    <string name="guide_text_02">APPs locked</string>
+    <string name="splash_text_01">LockWiz</string>
+    <string name="splash_text_02">Protect your privacy</string>
+    <string name="time_lock_none">Set a time limit to keep your phone locked.</string>
+    <string name="wifi_lock_none">Lock the applications you want to protect based on a selected Wi-Fi network.</string>
+
+    <!-- 20150318 -->
+
+    <string name="let_us_try">I\'m gonna try</string>
+    <string name="user_first_tips">Enable Guest Mode to Lock the Apps when you hand your phone to someone else.</string>
+    <string name="user_btn_config">Set up Guest Mode</string>
+    <string name="user_model_tips">You\'re in Guest Mode now and allowed to access to the following applications</string>
+    <string name="user_lock_tips">Hi, I\'m LockWiz\n You\'re in Guest Mode now, but you haven\'t been allowed to access to any applications.</string>
+    <string name="choose_item">APPs selected</string>
+    <string name="choose_text_wifi">The Wi-Fi has been locked</string>
+    <string name="choose_text_time">The time slot has been locked</string>
+    <string name="choose_text_user">Guest Mode has been enabled</string>
+    <string name="time_edit_apps">Locked %1$d APPs</string>
+    <string name="mgr_apps">%1$d APPs are locked</string>
+    <string name="mgr_see">Details</string>
+    <string name="lock_save">Save</string>
+    <string name="num_create_text_01">Enter 4 digit password to unlock</string>
+    <string name="num_create_text_02">Enter again to confirm</string>
+    <string name="num_create_text_03">Passwords did not match, try again</string>
+    <string name="password_set_success">Password recorded</string>
+    <string name="password_forget">Forgot Password</string>
+    <string name="password_error_wait">You have entered an incorrect password 5 times.Try again in 1 minute.</string>
+    <string name="password_error_count">The password is incorrect.Try again.</string>
+    <string name="password_short">Please enter at least 4 characters.</string>
+    <string name="password_time">%1$d seconds later, try again</string>
+    <string name="password_gestrue_tips">Draw pattern to unlock </string>
+    <string name="password_question">Security Question:</string>
+    <string name="password_answer">Answer：</string>
+    <string name="password_answer_set_toast">Security Question and Answer have been set.</string>
+    <string name="password_answer_null_toast">Answers cannot be blank</string>
+    <string name="lock_check">Verification</string>
+    <string name="lock_check_toast_error">Your answer is incorrect. Unlock Failed!</string>
+    <string name="lock_check_toast_success">Your answer is correct. Enter a new password!</string>
+    <string name="secret_check">Security Check</string>
+    <string name="lock_done_none">You haven\'t selected any APP to lock.</string>
+
+    <!-- Q&A start -->
+
+    <string name="password_question_01">What is your most memorable thing?</string>
+    <string name="password_question_02">What\'s the name of your favorite pet?</string>
+    <string name="password_question_03">Who is your girlfriend?</string>
+    <string name="password_question_04">What was your dream when you were a child? </string>
+    <string name="password_question_05">If you had a crush on someone of the same gender, who is she/he?</string>
+    <string name="password_question_06">What\'s the name of your favorite teacher in high school?</string>
+    <string name="password_question_07">Where would you like to visit when you were a child?</string>
+    <string name="password_question_08"> If you could travel back in time, when would you like to go?</string>
+    <string name="password_question_09">Who is your boyfriend?</string>
+
+    <!-- Q&A end -->
+
+    <string name="user_model_unlock">Guest Mode Unlocked</string>
+    <string name="clear_tips">Tip</string>
+    <string name="clear_all_log">Are your sure to delete all logs? </string>
+    <string name="lock_cancel">Cancel</string>
+    <string name="lock_ok">OK</string>
+    <string name="lock_share">Share</string>
+    <string name="num_create_text"> Enter 4 digit password</string>
+
+    <!-- 2015-03-30 -->
+
+    <string name="pwdsetting_advance_aoturecordpic__title">Intruder Selfie</string>
+    <string name="pwdsetting_advance_aoturecordpic__detail">Take a photo of someone entering a wrong password</string>
+    <string name="pwdsetting_advance_noaoturecordpic__title">Intruder Selfie</string>
+    <string name="pwdsetting_advance_noaoturecordpic__detail">Do not take a photo of someone entering a wrong password</string>
+
+    <!-- 2015-03-31 -->
+
+    <string name="warring_openautopic">Auto-camera might be unsuitable for some phone models.</string>
+    <string name="pwdsetting_advance_playwarringsound__title">Sound Alarm</string>
+    <string name="pwdsetting_advance_playwarringsound__detail">Alarm will automatically be enabled when entering a wrong password</string>
+    <string name="pwdsetting_advance_noplaywarringsound__title">Sound alarm</string>
+    <string name="pwdsetting_advance_noplaywarringsound__detail"> Alarm will automatically be disabled when entering a wrong password</string>
+    <string name="pwdsetting_aboutour_apps_title">Recommendations</string>
+    <string name="pwdsetting_aboutour_apps_detail">Our pick of the best Android APPs</string>
+    <string name="downloadtips">Download</string>
+
+    <!-- yfh 20150331 -->
+
+    <string name="pwdsetting_share_title">Share</string>
+    <string name="pwdsetting_share_detail">Share LockWiz with your friend </string>
+    <string name="pwdsetting_share_text">Lock your privacy with LockWiz </string>
+
+    <!-- yfh 20150414 -->
+    <string name="new_app_title">Hi, LockWiz found a new APP</string>
+    <string name="new_app_text">360 installed, tap to lock it.</string>
+    <string name="new_app_btn">Lock</string>
+    <string name="version">Version:</string>
+    <string name="step_start">Start it now</string>
+    <string name="step_skip">Skip</string>
+
+    <!-- yfh 20150427 -->
+    <string name="app_title">LockWiz</string>
+    <string name="box_safe_tip">All encrypted files here will not be displayed in their original location.</string>
+    <string name="main_tab_lock">App lock</string>
+    <string name="main_tab_box">Vault</string>
+    <string name="box_detail_file">Encrypted %1$d</string>
+    <string name="box_detail_pic">Encrypted %1$d</string>
+    <string name="box_title_pic">Image Encryption</string>
+    <string name="box_title_video">Video Encryption</string>
+    <string name="box_title_aduio">Audio Encryption</string>
+    <string name="box_title_file">File Encryption</string>
+    <string name="pop_main_log">View Intruder</string>
+    <string name="pop_main_set">Settings</string>
+    <string name="normal_setting">General Settings</string>
+    <string name="try_to_open">Tried to open&#160;</string>
+    <string name="number_pwd">Digital Password</string>
+    <string name="gesure_pwd">Gesture Password</string>
+    <string name="forget_gesture">Forgot Gesture</string>
+    <string name="forget_num">Forgot Password</string>
+    <string name="title_set_normal">General Settings</string>
+    <string name="title_set_advanced">Advanced Settings</string>
+    <string name="no_new_version">This is the latest version</string>
+    <string name="sort_default">Sort by default order</string>
+    <string name="sort_alpha">Sort by name</string>
+    <string name="sort_install">Sort by installed date</string>
+
+    <string name="enter_double_exit">Press again to exit</string>
+    <string name="version_now">Ver&#160;</string>
+    <string name="received_replies">Received %1$d</string>
+
+
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cleanwiz.applock"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lock_bg_blue"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/lock_bg_blue"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal" >
+
+        <com.cleanwiz.applock.ui.widget.actionview.ActionView
+            android:id="@+id/btn_menu"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:onClick="onClickEvent"
+            android:padding="16dp"
+            app:av_action="back"
+            app:av_color="@color/md_white_0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="16dp"
+            android:text="@string/feedback_title"
+            android:textColor="@color/md_white_0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lock_bg_white" >
+
+        <LinearLayout
+            android:id="@+id/fb_input_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/shadow_tl" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_white_0"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/fb_send_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="4dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/chat_send" />
+
+                <EditText
+                    android:id="@+id/fb_send_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:layout_toLeftOf="@id/fb_send_btn"
+                    android:layout_toStartOf="@id/fb_send_btn"
+                    android:background="@drawable/inputbox"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/umeng_fb_feedback"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:scrollbars="vertical"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- android:minHeight="33dp" -->
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/fb_reply_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/fb_input_layout" >
+
+            <ListView
+                android:id="@+id/fb_reply_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:listSelector="#00000000"
+                android:transcriptMode="alwaysScroll" >
+            </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow_b" />
+    </RelativeLayout>
+
+</LinearLayout>

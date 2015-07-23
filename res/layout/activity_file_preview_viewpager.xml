@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.cleanwiz.applock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+                android:background="@color/lock_bg_blue"
+                android:orientation="vertical">
+
+    <com.cleanwiz.applock.files.widget.HackyViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff333333"
+            android:id="@+id/file_preview_viewpager"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_height"
+                    android:background="@color/lock_bg_blue"
+                    android:id="@+id/viewpage_title">
+
+        <com.cleanwiz.applock.ui.widget.actionview.ActionView
+                android:id="@+id/btn_back"
+                android:onClick="onClick"
+                android:layout_width="@dimen/title_height"
+                android:layout_height="@dimen/title_height"
+                android:padding="16dp"
+                app:av_action="back"
+                android:layout_marginLeft="0dp"
+                app:av_color="@color/md_white_0"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="@dimen/title_height"
+                      android:id="@+id/pic_hide_btn_edit"
+                      android:layout_alignParentRight="true">
+
+            <LinearLayout android:layout_width="@dimen/title_height"
+                          android:layout_height="@dimen/title_height"
+                          android:gravity="center"
+                          android:onClick="onClick"
+                          android:id="@+id/pic_hide_img_recovery">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/recovery"
+                        />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="@dimen/title_height"
+                          android:layout_height="@dimen/title_height"
+                          android:onClick="onClick"
+                          android:id="@+id/pic_hide_img_del"
+                          android:gravity="center">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/delete"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

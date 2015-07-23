@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cleanwiz.applock"
+    xmlns:md="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lock_bg_blue"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/layout_title"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/gesturecreate_ll_top"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/tv_tips_01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/first_tip1"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_tips_02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/first_tip2"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gesturepwd_create_text"
+                android:layout_width="fill_parent"
+                android:layout_height="26dp"
+                android:gravity="center"
+                android:text="@string/setup_gesture_pattern"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gesturepwd_setting_preview"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="5.0dip"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="6.0dip" >
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_0"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_1"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_2"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="6.0dip"
+                android:layout_marginTop="6.0dip" >
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_3"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_4"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_5"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="6.0dip"
+                android:layout_marginTop="6.0dip" >
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_6"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_7"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+
+                <View
+                    android:id="@+id/gesturepwd_setting_preview_8"
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:layout_marginLeft="6.0dip"
+                    android:background="@drawable/trans" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- android:shadowColor="#b3000000" -->
+        <!-- android:shadowRadius="1.0" -->
+
+        <com.cleanwiz.applock.ui.widget.LockPatternView
+            android:id="@+id/gesturepwd_create_lockview"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="10.0dip" />
+
+        <View
+            android:id="@+id/gesturepwd_creat_gap4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/reset_btn"
+            style="@style/ButtonRed"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/right_btn"
+            style="@style/ButtonGreen"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/lock_bg_blue"
+            android:clipToPadding="false"
+            android:fitsSystemWindows="true"
+            android:orientation="horizontal">
+
+        <com.cleanwiz.applock.ui.widget.actionview.ActionView
+                android:id="@+id/btn_more"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickEvent"
+                android:padding="16dp"
+                app:av_action="more"
+                app:av_color="@color/md_white_0"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_pop"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/layout_title"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/main_pop_bg"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:visibility="invisible">
+
+        <com.gc.materialdesign.views.LayoutRipple
+                android:id="@+id/btn_change"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/lock_bg_white"
+                android:gravity="center_vertical"
+                android:onClick="onClickEvent"
+                android:paddingLeft="16dp"
+                md:rippleColor="@color/ripple_water"
+                md:rippleSpeed="70">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|left"
+                    android:text="@string/number_pwd"
+                    android:textColor="@color/md_black_0"
+                    android:textSize="16sp"/>
+        </com.gc.materialdesign.views.LayoutRipple>
+    </LinearLayout>
+
+</RelativeLayout>

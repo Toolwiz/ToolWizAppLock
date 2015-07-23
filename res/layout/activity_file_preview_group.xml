@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!--图片预览查找系统图片-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.cleanwiz.applock"
+              xmlns:md="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="false"
+              android:background="@color/lock_bg_blue"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            android:clipToPadding="false"
+            android:layout_height="@dimen/title_height">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <com.cleanwiz.applock.ui.widget.actionview.ActionView
+                    android:id="@+id/btn_back"
+                    android:onClick="onClick"
+                    android:layout_width="@dimen/title_height"
+                    android:layout_height="@dimen/title_height"
+                    android:padding="16dp"
+                    app:av_action="close"
+                    android:layout_marginLeft="0dp"
+                    app:av_color="@color/md_white_0"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/file_hide_txt_title"
+                    android:textColor="@color/text_color_white"
+                    android:layout_alignLeft="@+id/btn_back"
+                    android:layout_marginLeft="72dp"
+                    android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <!--18dp 全选按钮-->
+        <com.gc.materialdesign.views.CheckBox
+                android:layout_centerInParent="true"
+                android:id="@+id/item_file_checkbox_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="60dp"
+                android:background="@color/file_check"
+                md:unchecked="@drawable/background_checkbox_uncheck_white"
+                md:check="false"/>
+
+        <!--确认隐藏-->
+        <LinearLayout android:layout_width="@dimen/title_height"
+                      android:layout_height="@dimen/title_height"
+                      android:id="@+id/preview_btn_hide"
+                      android:layout_centerInParent="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_marginRight="0dp"
+                      android:onClick="onClick"
+                      android:gravity="center">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/ok"
+                       android:text="@string/file_hide_btn"
+                    />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/md_white_0">
+
+        <com.cleanwiz.applock.files.widget.BGridView
+                android:layout_width="match_parent"
+                android:numColumns="3"
+                android:id="@+id/hide_view_list"
+                android:gravity="center"
+                android:stretchMode="columnWidth"
+                android:layout_height="match_parent">
+        </com.cleanwiz.applock.files.widget.BGridView>
+    </RelativeLayout>
+</LinearLayout>

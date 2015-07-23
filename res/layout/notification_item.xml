@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/notificationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/stat_sys_download" />
+
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/notificationImage"
+        
+        android:paddingLeft="6dp"
+        android:textColor="#FF000000" />
+
+    <TextView
+        android:id="@+id/notificationPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationImage"
+        
+        android:paddingTop="2dp"
+        android:textColor="#FF000000" />
+
+    <ProgressBar
+        android:id="@+id/notificationProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/notificationTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/notificationPercent"
+        android:layout_below="@id/notificationTitle"
+        android:paddingLeft="6dp"
+        android:paddingRight="3dp"
+        android:paddingTop="2dp" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="text_color_grey">#66ffffff</color>
+    <!-- <color name="btn_lock_green">#ff1649b2</color> -->
+    <color name="btn_lock_green">#ff00a78d</color>
+    <color name="bg_blue">#ff51afeb</color>
+    <color name="bg_red">#ffeb7d51</color>
+    <color name="text_password_wrong">#ffffe5b2</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+
+    <!-- feedback -->
+    <color name="fb_text_white">#ffedebeb</color>
+    <color name="fb_text_grey">#ff858484</color>
+    <color name="fb_text_sys">#ffffffff</color>
+    <color name="fb_text_user">#ff000000</color>
+    <color name="fb_bg_white">#fff2f2f2</color>
+    <color name="fb_bg_brown">#ff523b3b</color>
+    <color name="fb_bg_grey">#ffcccccc</color>
+    <color name="fb_bg_title">#ffff9aa0</color>
+    <color name="fb_bg_text">#ffebebeb</color>
+    <color name="fb_bg_edit">#ffe8f0f0</color>
+    <color name="edit_bg">#ffffe8bf</color>
+    <color name="white_bg">#ffffffff</color>
+    <color name="text_red">#ffff4081</color>
+    <color name="color_bg">#99ffffff</color>
+    <color name="color_gap">#ffcdcdcd</color>
+    <color name="color_gray">#ffc5c5c5</color>
+    <color name="color_hd">#ff793a10</color>
+    <color name="color_btn_draw">#ff949494</color>
+    <color name="color_wrong">#ff9c9c9c</color>
+    <color name="color_wrong_bg">#ffe0e0e0</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_grey">#ff797979</color>
+    <color name="text_green">#ff148777</color>
+
+    <!-- 20150416 -->
+    <color name="lock_bg_green">#ff00bb9e</color>
+    <color name="lock_bg_blue">#ff3f51b5</color>
+    <color name="lock_bg_white">#fffafafa</color>
+    <color name="lock_status_alpha">#1fffffff</color>
+    <color name="text_color_black2">#ff3f3f3f</color>
+    <color name="text_color_grey2">#ff868686</color>
+    <color name="line_color_grey2">#ffe6e6e6</color>
+    <color name="ripple_water">#ffeeeeee</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="start_bg">#ff3f51b5</color>
+    <color name="file_add">#ff4081</color>
+    <color name="file_add_ripples">#ffe33e7a</color>
+
+    <color name="file_check">#ff4081</color>
+    
+
+</resources>

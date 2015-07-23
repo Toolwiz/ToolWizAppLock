@@ -1,0 +1,111 @@
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:md="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/layout_item"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/lock_bg_white"
+        md:rippleColor="@color/ripple_water"
+        md:rippleSpeed="70" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_set_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:textColor="@color/md_black_0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_set_detail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right|center"
+                    android:maxLines="1"
+                    android:textColor="@color/md_black_1"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.gc.materialdesign.views.Switch
+                android:id="@+id/iv_onoff"
+                android:layout_width="38dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:background="#FF4081"
+                android:visibility="visible"
+                md:check="true" />
+        </RelativeLayout>
+    </com.gc.materialdesign.views.LayoutRipple>
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@color/lock_bg_white" >
+
+        <View
+            android:id="@+id/title_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:layout_above="@+id/tv_set_title"
+            android:background="@color/md_black_2" />
+
+        <TextView
+            android:id="@+id/tv_set_title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/md_black_2"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <!-- <View -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="0.4dp" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:background="@color/line_color_grey2" /> -->
+
+</RelativeLayout>

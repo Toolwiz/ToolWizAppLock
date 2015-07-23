@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="300dp"
+              android:background="@color/bg_red"
+              android:layout_height="200dp">
+
+    <TextView android:layout_width="match_parent"
+              android:text="创建新文件夹"
+              android:textSize="16sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="20dp"
+              android:layout_height="20dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:id="@+id/dialog_edittext"
+              android:layout_height="40dp"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="50dp">
+
+        <Button android:layout_width="100dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/btn_dialog"
+                android:id="@+id/dialog_btn_cancel"
+                android:text="取消"
+                />
+
+        <Button android:layout_width="100dp"
+                android:layout_height="56dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/btn_dialog"
+                android:id="@+id/dialog_btn_create"
+                android:text="确定"
+                />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="pic_preview">Image</string>
+    <string name="file_preview">File</string>
+    <string name="audio_preview">Audio</string>
+    <string name="video_preview">Video</string>
+
+    <!--<string name="pic_preview_title_edit">Edit Image</string>-->
+    <!--<string name="file_preview_title_edit">Edit File</string>-->
+    <!--<string name="audio_preview_title_edit">Edit Audio</string>-->
+    <!--<string name="video_preview_title_edit">Edit Video</string>-->
+
+    <string name="pic_preview_title">Encrypt Image</string>
+    <string name="file_preview_title">Encrypt File</string>
+    <string name="audio_preview_title">Encrypt Audio</string>
+    <string name="video_preview_title">Encrypt Video</string>
+
+    <string name="pic_preview_title_edit">Encrypt Image</string>
+    <string name="file_preview_title_edit">Encrypt File</string>
+    <string name="audio_preview_title_edit">Encrypt Audio</string>
+    <string name="video_preview_title_edit">Encrypt Video</string>
+
+
+    <string name="pic_preview_title_add">Add Image</string>
+    <string name="file_preview_title_add">Add File</string>
+    <string name="audio_preview_title_add">Add Audio</string>
+    <string name="video_preview_title_add">Add Video</string>
+
+    <string name="pic_preview_edit">Edit</string>
+    <string name="pic_preview_toast_uninfo">Name cannot be empty</string>
+    <string name="pic_preview_toast_repeated">Name cannot be the same</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_input">Please input</string>
+    <string name="pic_hide_edit">Edit</string>
+    <string name="pic_hide_preview">Preview</string>
+
+    <string name="file_hide_title">File</string>
+    <string name="file_hide_btn">Hide File</string>
+
+    <string name="file_hide_txt_add_pic">No private image,\n please tap "Add" button to add one.</string>
+    <string name="file_hide_txt_add_file">No private file,\n please tap "Add" button to add one.</string>
+    <string name="file_hide_txt_add_audio">No private audio,\n please tap "Add" button to add one.</string>
+    <string name="file_hide_txt_add_video">No private video,\n please tap "Add" button to add one.</string>
+
+    <string name="file_dialog_recovery">Recover&#160;</string>
+    <string name="file_dialog_del">Delete&#160;</string>
+
+    <string name="file_dialog_recovery_missage">&#160;will be restored to its original location.</string>
+    <string name="file_dialog_del_missage">&#160;will be completely deleted and can not be recovered.</string>
+</resources>

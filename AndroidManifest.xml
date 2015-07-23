@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cleanwiz.applock"
+    android:versionCode="18"
+    android:versionName="2.10" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <application
+        android:name="com.cleanwiz.applock.AppLockApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="false"
+        android:theme="@style/AppTheme" >
+
+        <!-- android:noHistory="true" -->
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.LockMainActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.SplashActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.GuideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.StepActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.GestureCreateActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.GestureUnlockActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.GestureCheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.AppLockActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.TimeLockMgrActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.TimeLockEditActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.AppSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.SettingExActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.FeedbackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.SecretConfig"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.NormalQAActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.LookMyPrivateActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.WifiLockMgrActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.WifiLockEditActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.UserUnlockActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.TipsLockActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.ChooseAppsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.UserHelpActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.NumberCreateActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.NumberCheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.NumberUnlockActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.SecretCheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cleanwiz.applock.ui.activity.AppsLinkActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.PicHideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.PicPreViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.FileHideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.FilePreViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.AudioHideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.AudioPreViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.VideoHideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.VideoPreViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".files.activity.PhotoPreViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- android:process=":LockService" -->
+        <service
+            android:name="com.cleanwiz.applock.service.LockService"
+            android:exported="true"
+            android:process=":LockService" >
+            <intent-filter>
+                <action android:name="com.cleanwiz.applock.service.LockService" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+            <intent-filter android:priority="1000" />
+        </service>
+        <service android:name="com.cleanwiz.applock.service.UpdateService" />
+
+        <receiver
+            android:name="com.cleanwiz.applock.service.AppLockBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cleanwiz.applock.service.LockReceiver"
+            android:exported="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.cleanwiz.applock.CHECK_LOCK" />
+
+                <component android:name="com.cleanwiz.applock.service.UpdateService" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver -->
+        <!-- android:name="com.cleanwiz.applock.service.DeviceAdminSample" -->
+        <!-- android:description="@string/app_name" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:permission="android.permission.BIND_DEVICE_ADMIN" > -->
+        <!-- <meta-data -->
+        <!-- android:name="android.app.device_admin" -->
+        <!-- android:resource="@xml/device_admin" /> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <receiver
+            android:name="com.cleanwiz.applock.service.DeviceMyReceiver"
+            android:description="@string/app_name"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

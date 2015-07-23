@@ -1,0 +1,143 @@
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lock_bg_green"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClickEvent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="12dp"
+                android:contentDescription="@string/app_name"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/title_back" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:gravity="center_vertical"
+                android:text="@string/title_wifi_lock"
+                android:textColor="@color/text_color_white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_add_timelock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            
+            android:gravity="center_vertical"
+            android:onClick="onClickEvent"
+            android:paddingRight="12dp"
+            android:text="@string/lock_add"
+            android:textColor="@color/text_color_white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@drawable/line_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listview"
+            style="@style/lock_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/layout_none"
+            android:layout_width="272dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:onClick="onClickEvent"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/wifi_lock_none"
+                android:textColor="@color/text_color_white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_none"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_white_line"
+                android:onClick="onClickEvent"
+                android:text="@string/let_us_try"
+                android:textColor="@color/text_color_white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_tips"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="24dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/wifi_pic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:excludeFromRecents">true</item>
+        <item name="android:noHistory">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:activityOpenEnterAnimation">@anim/activity_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_out</item>
+
+        <!-- API 19 theme customizations can go here. -->
+        <!-- <item name="android:windowTranslucentStatus">true</item> -->
+        <!-- <item name="android:windowTranslucentNavigation">true</item> -->
+        <!-- <item name="android:windowNoTitle">true</item> -->
+        <!-- android:excludeFromRecents="true" -->
+        <!-- android:noHistory="true" -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Splash" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/skin_color_button</item>
+    </style>
+
+    <style name="ButtonRed" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/skin_color_button</item>
+    </style>
+
+    <style name="lock_list_view">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dip</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:headerDividersEnabled">true</item>
+    </style>
+
+    <style name="SetTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_marginLeft">13dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="cleaner_list_view">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dip</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:headerDividersEnabled">true</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

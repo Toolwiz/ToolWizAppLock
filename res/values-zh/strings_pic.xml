@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="pic_preview">图片</string>
+    <string name="file_preview">文件</string>
+    <string name="audio_preview">音频</string>
+    <string name="video_preview">视频</string>
+
+    <!--<string name="pic_preview_title_edit">编辑图片</string>-->
+    <!--<string name="file_preview_title_edit">编辑文件</string>-->
+    <!--<string name="audio_preview_title_edit">编辑音频</string>-->
+    <!--<string name="video_preview_title_edit">编辑视频</string>-->
+
+    <string name="pic_preview_title">加密图片</string>
+    <string name="file_preview_title">加密文件</string>
+    <string name="audio_preview_title">加密音频</string>
+    <string name="video_preview_title">加密视频</string>
+
+    <string name="pic_preview_title_edit">加密图片</string>
+    <string name="file_preview_title_edit">加密文件</string>
+    <string name="audio_preview_title_edit">加密音频</string>
+    <string name="video_preview_title_edit">加密视频</string>
+
+    <string name="pic_preview_title_add">添加图片</string>
+    <string name="file_preview_title_add">添加文件</string>
+    <string name="audio_preview_title_add">添加音频</string>
+    <string name="video_preview_title_add">添加视频</string>
+
+    <string name="pic_preview_edit">编辑</string>
+    <string name="pic_preview_toast_uninfo">名字不能为空</string>
+    <string name="pic_preview_toast_repeated">命名重复</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="please_input">请输入</string>
+    <string name="pic_hide_edit">编辑</string>
+    <string name="pic_hide_preview">预览</string>
+
+    <string name="file_hide_title">文件</string>
+    <string name="file_hide_btn">隐藏文件</string>
+
+    <string name="file_hide_txt_add_pic">没有隐私图片，请点击添加</string>
+    <string name="file_hide_txt_add_file">没有隐私文件，请点击添加</string>
+    <string name="file_hide_txt_add_audio">没有隐私音频，请点击添加</string>
+    <string name="file_hide_txt_add_video">没有隐私视频，请点击添加</string>
+
+    <string name="file_dialog_recovery">恢复</string>
+    <string name="file_dialog_del">删除</string>
+
+    <string name="file_dialog_recovery_missage">将被恢复到原始目录</string>
+    <string name="file_dialog_del_missage">将被彻底删除无法恢复</string>
+</resources>

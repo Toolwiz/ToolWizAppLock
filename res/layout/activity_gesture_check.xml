@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cleanwiz.applock"
+    xmlns:md="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gesturepwd_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lock_bg_blue"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/picSurfaceView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:visibility="visible" >
+    </SurfaceView>
+
+    <LinearLayout
+        android:id="@+id/lock_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical" >
+
+        <com.cleanwiz.applock.ui.widget.LockPatternView
+            android:id="@+id/gesturepwd_unlock_lockview"
+            android:layout_width="280.0dip"
+            android:layout_height="280.0dip"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lock_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/gesturepwd_unlock_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:layout_marginTop="0.0dip"
+            android:gravity="center_horizontal"
+            android:shadowColor="#b3ffffff"
+            android:shadowRadius="1.0"
+            android:text="@string/password_gestrue_tips"
+            android:textColor="@android:color/white"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/gesturepwd_unlock_failtip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:layout_marginTop="0.0dip"
+            android:gravity="center_horizontal"
+            android:shadowColor="#b3ffffff"
+            android:shadowRadius="1.0"
+            android:textColor="@android:color/white"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/lock_bg_blue"
+            android:clipToPadding="false"
+            android:fitsSystemWindows="true"
+            android:orientation="horizontal">
+
+        <com.cleanwiz.applock.ui.widget.actionview.ActionView
+                android:id="@+id/btn_more"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentRight="true"
+                android:onClick="onClickEvent"
+                android:padding="16dp"
+                app:av_action="more"
+                app:av_color="@color/md_white_0"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_pop"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/layout_title"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/main_pop_bg"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:visibility="invisible">
+
+        <com.gc.materialdesign.views.LayoutRipple
+                android:id="@+id/gesturepwd_unlock_forget"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/lock_bg_white"
+                android:gravity="center_vertical"
+                android:onClick="onClickEvent"
+                android:paddingLeft="16dp"
+                md:rippleColor="@color/ripple_water"
+                md:rippleSpeed="70">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|left"
+                    android:text="@string/forget_gesture"
+                    android:textColor="@color/md_black_0"
+                    android:textSize="16sp"/>
+        </com.gc.materialdesign.views.LayoutRipple>
+    </LinearLayout>
+
+</RelativeLayout>

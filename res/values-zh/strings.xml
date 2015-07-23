@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <!-- number -->
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <!-- number -->
+
+    <string name="app_name">密码锁</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Gesture code starting -->
+    <string name="setup_gesture_code">设置手势密码</string>
+    <string name="setup_gesture_pattern">绘制解锁图案</string>
+    <string name="setup_gesture_pattern_again">再次绘制解锁图案</string>
+    <string name="forget_gesture_code">忘记手势密码?</string>
+    <string name="use_other_account_login">用其他账号登录</string>
+    <string name="set_gesture_pattern">绘制解锁图案</string>
+    <string name="set_gesture_pattern_reason">设置手势密码，防止他人未经授权查看</string>
+    <string name="reset_gesture_code">重新设置手势密码</string>
+    <!-- End -->
+
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+
+    <!-- app lock -->
+    <string name="title_applock">应用锁</string>
+    <string name="default_sort">默认排序</string>
+    <string name="first_tip1">欢迎使用密码锁</string>
+    <string name="first_tip2">第一次使用，请先设置密码</string>
+    <string name="txt_drawgesture">画个解锁图案</string>
+    <string name="txt_ges2num">不喜欢手势密码？切换 数字密码</string>
+    <string name="txt_num2ges">不喜欢数字密码？切换 手势密码</string>
+    <string name="lock_time">时间锁</string>
+    <string name="lock_wifi">WIFI锁</string>
+    <string name="lock_user">访客模式</string>
+    <string name="time_lock_edit">编辑时间锁</string>
+    <string name="time_lock_add">新增时间锁</string>
+    <string name="wifi_lock_add">新增WIFI锁</string>
+    <string name="time_start">开始时间</string>
+    <string name="time_end">结束时间</string>
+    <string name="time_repeat">重复</string>
+    <string name="lock_app">应用</string>
+    <string name="lock_choose">选择</string>
+    <string name="lock_name">名称</string>
+    <string name="lock_hint">在这里输入</string>
+    <string name="week_1">周一</string>
+    <string name="week_2">周二</string>
+    <string name="week_3">周三</string>
+    <string name="week_4">周四</string>
+    <string name="week_5">周五</string>
+    <string name="week_6">周六</string>
+    <string name="week_7">周日</string>
+    <string name="lock_done">完成</string>
+    <string name="lock_next">下一步</string>
+    <string name="lock_edit">编辑</string>
+    <string name="lock_delete">删除</string>
+    <string name="lock_add">新增</string>
+    <string name="title_time_lock">时间锁</string>
+    <string name="title_wifi_lock">WIFI锁</string>
+    <string name="wifi_selete">选择WIFI网络</string>
+
+    <!-- app setting -->
+    <string name="setting_title">设置</string>
+    <string name="setting_default"></string>
+    <string name="setleavetimetitle">短暂退出时间</string>
+    <string name="normalqa_title">常见问题</string>
+    <string name="myprivate_title">谁动了我的隐私</string>
+    <string name="myprivate_clear">清空</string>
+    <string name="myprivate_notext">暂时没有人动过我的隐私</string>
+    <string name="server_title">服务</string>
+    <string name="server_startlock_title">暂停加锁</string>
+    <string name="server_startlock_detail">加锁保护已启用</string>
+    <string name="server_unlock_title">暂停加锁</string>
+    <string name="server_unlock_detail">加锁保护已禁用</string>
+    <string name="pwdsetting_title">密码设置</string>
+    <string name="pwdsetting_modify_title">修改密码</string>
+    <string name="pwdsetting_modify_detail">切换手势解锁和数字解锁方式</string>
+    <string name="pwdsetting_modify_handler">手势解锁</string>
+    <string name="pwdsetting_modify_number">数字解锁</string>
+    <string name="pwdsetting_notrue_title">伪装密码</string>
+    <string name="pwdsetting_notrue_detail">打开被锁应用时出现伪装密码</string>
+    <string name="pwdsetting_secret_title">密保设置</string>
+    <string name="pwdsetting_secret_detail">设置密保问题和答案</string>
+    <string name="pwdsetting_advance_title">高级设置</string>
+    <string name="pwdsetting_advance_tipsnewapp_title">新应用加锁提示</string>
+    <string name="pwdsetting_advance_tipsnewapp_detail">安装新应用时，一键快速加锁</string>
+    <string name="pwdsetting_advance_notipsnewapp_title">新应用加锁提示</string>
+    <string name="pwdsetting_advance_notipsnewapp_detail">新安装的应用将不提示加锁</string>
+    <string name="pwdsetting_advance_allowleave_title">解锁时效</string>
+    <string name="pwdsetting_advance_allowleave_detail">短暂退出后返回应用不需要再次验证</string>
+    <string name="pwdsetting_advance_noallowleave_title">解锁时效</string>
+    <string name="pwdsetting_advance_noallowleave_detail">再次进入程序会自动上锁</string>
+    <string name="pwdsetting_advance_allowleavetime_title">解锁时效</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_10second">10秒</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_30second">30秒</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_1minute">1分钟</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_2minute">2分钟</string>
+    <string name="pwdsetting_advance_allowleavetime_detail_5minute">5分钟</string>
+    <string name="pwdsetting_advance_showappicon_title">显示锁锁图标</string>
+    <string name="pwdsetting_advance_showappicon__detail">在桌面应用中显示锁锁图标</string>
+    <string name="pwdsetting_advance_hideappicon_title">隐藏锁锁图标</string>
+    <string name="pwdsetting_advance_hideappicon__detail">在桌面应用中隐藏锁锁图标</string>
+    <string name="pwdsetting_advance_uninstallapp_title">防止卸载</string>
+    <string name="pwdsetting_advance_uninstallapp_detail">防止锁锁被意外删除</string>
+    <string name="pwdsetting_aboutour_title">关于我们</string>
+    <string name="pwdsetting_aboutour_feedback_title">意见反馈</string>
+    <string name="pwdsetting_aboutour_feedback_detail">给我们提意见</string>
+    <string name="pwdsetting_aboutour_qa_title">常见问题</string>
+    <string name="pwdsetting_aboutour_qa_detail">有问题点这里</string>
+    <string name="pwdsetting_aboutour_version_title">检查版本</string>
+    <string name="pwdsetting_aboutour_version_detail">更新检查</string>
+    <string name="pwdsetting_aboutour_version_hasnew">需要更新</string>
+    <string name="pwdsetting_aboutour_version_hasno">已经是最新版本</string>
+    <string name="pwdsetting_aboutour_lookmyprivate_title">谁动了我的隐私</string>
+    <string name="pwdsetting_aboutour_lookmyprivate_detail">错误解锁日志</string>
+    <string name="lookmyprivate_befor">动了我的</string>
+
+    <!-- app secret -->
+    <string name="secret_title">密保设置</string>
+
+    <!-- app update -->
+    <string name="update_title">发现新版本的密码锁</string>
+    <string name="update_buttontext">立即升级</string>
+
+    <!-- app feedback -->
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_detailtitle">您的反馈是我们的动力</string>
+    <string name="main_tx_back">返回</string>
+    <string name="feedback_thank">看看</string>
+    <string name="umeng_fb_reply_content_hint">请输入内容</string>
+    <string name="default_reply">欢迎使用密码锁！您在使用过程中有任何疑问或者建议，请在这里反馈给我们。我们将及时与您联系！不胜感谢！</string>
+
+    <!-- app normalqa -->
+    <string name="noamalqa_content1">问：如何防止锁锁被他人卸载？\n答：打开锁锁，在设置界面，开启“防止卸载锁锁”功能，启用保护后，没有密码将无法卸载或强制关闭锁锁，防止被他人偷窥隐私。</string>
+    <string name="noamalqa_content2">问：如何卸载锁锁？\n答：如果你没有开启“防止卸载锁锁”功能，锁锁可以直接卸载。如果你开启了“防止卸载锁锁”功能，请先在设置界面关闭该功能，即可正常卸载。</string>
+    <string name="noamalqa_content3">问：忘记密码，如何找回？\n答：在第一次设置密码时，锁锁会提示你设置安全问题。需要找回密码时，点击“忘记密码”按钮就会出现找回密码界面。</string>
+
+    <!-- user lock -->
+    <string name="user_unlock_text1"></string>
+    <string name="user_unlock_text2">主人不让你用这个应用哦！</string>
+    <string name="user_unlock_btn_cancel">放弃</string>
+    <string name="user_unlock_btn_unlock">主人解锁</string>
+    <string name="user_lock_open">开启访客模式</string>
+    <string name="choose_app">选择APP</string>
+    <string name="user_lock_open_s">启用访客模式</string>
+    <string name="toast_user_open">访客模式已开启</string>
+    <string name="toast_user_close">访客模式已关闭</string>
+    <string name="guide_text_01">个</string>
+    <string name="guide_text_02">应用被保护 </string>
+    <string name="splash_text_01">密码锁</string>
+    <string name="splash_text_02">贴心守护你的隐私</string>
+    <string name="time_lock_none">主人，时间锁可以在设定好的时间内自动将你想加锁的APP保护起来。快来试试吧！</string>
+    <string name="wifi_lock_none">主人，WiFi锁可以根据你的WiFi网络，自动将你想加锁的APP保护起来。快来试试吧！</string>
+
+    <!-- 20150318 -->
+    <string name="let_us_try">我要试试</string>
+    <string name="user_first_tips">主人，如果你需要将手机借给其他人使用，开启访客模式可以将你想加锁的APP保护起来。快来试试吧！</string>
+    <string name="user_btn_config">立即配置访客模式</string>
+    <string name="user_model_tips">您正处于访客模式中！\n主人为您开放了以下应用的使用权限</string>
+    <string name="user_lock_tips">你好！我是锁锁！\n您正处于访客模式中！\n我的主人没有给您开通使用权限。</string>
+    <string name="choose_item">个APP</string>
+    <string name="choose_text_wifi">这个WiFi下已经锁定</string>
+    <string name="choose_text_time">这个时间段已经锁定</string>
+    <string name="choose_text_user">访客模式下已经锁定</string>
+    <string name="time_edit_apps">已锁定%1$d个APP</string>
+    <string name="mgr_apps">%1$d个APP被保护</string>
+    <string name="mgr_see">查看详情</string>
+    <string name="lock_save">保存</string>
+    <string name="num_create_text_01">输入4位解锁密码，来解锁</string>
+    <string name="num_create_text_02">再次输入以确认</string>
+    <string name="num_create_text_03">两次输入不一致，请重试</string>
+    <string name="password_set_success">密码设置成功</string>
+    <string name="password_forget">忘记密码</string>
+    <string name="password_error_wait">您已经5次输错密码，请%1$d分钟后再试！</string>
+    <string name="password_error_count">密码错误，还可以输入%1$d次！</string>
+    <string name="password_short">输入长度不够，请重试</string>
+    <string name="password_time">%1$d秒后重试</string>
+    <string name="password_gestrue_tips">请绘制手势密码，来解锁</string>
+    <string name="password_question">安全问题：</string>
+    <string name="password_answer">答案：</string>
+    <string name="password_answer_set_toast">密保问题和答案设置成功</string>
+    <string name="password_answer_null_toast">答案不能为空</string>
+    <string name="lock_check">验证</string>
+    <string name="lock_check_toast_error">验证错误，解锁失败！</string>
+    <string name="lock_check_toast_success">验证成功，请重设密码！</string>
+    <string name="secret_check">安全问题验证</string>
+    <string name="lock_done_none">您还没有选择任何加锁的APP哦</string>
+
+    <!-- Q&A start -->
+    <string name="password_question_01">我小时候最想去的地方是？</string>
+    <string name="password_question_02">我最喜欢的宠物名字是？</string>
+    <string name="password_question_03">我中学最喜欢的老师叫什么？</string>
+    <string name="password_question_04">我小时候的梦想是什么？</string>
+    <string name="password_question_05">我的男神是谁？</string>
+    <string name="password_question_06">我的女神是谁？</string>
+    <string name="password_question_07">我最难忘的事情是什么？</string>
+    <string name="password_question_08">我想穿越到哪个朝代？</string>
+    <string name="password_question_09">我曾对哪个同性产生过幻想？</string>
+    <!-- Q&A end -->
+
+    <string name="user_model_unlock">同时解除访客模式</string>
+    <string name="clear_tips">提示</string>
+    <string name="clear_all_log">您真的要清空全部日志记录么？</string>
+    <string name="lock_cancel">取消</string>
+    <string name="lock_ok">确认</string>
+    <string name="lock_share">分享</string>
+    <string name="num_create_text">输入4位解锁密码</string>
+
+    <!-- 2015-03-30 -->
+    <string name="pwdsetting_advance_aoturecordpic__title">输错密码自动拍照</string>
+    <string name="pwdsetting_advance_aoturecordpic__detail">输错密码时自动记录照片</string>
+    <string name="pwdsetting_advance_noaoturecordpic__title">输错密码自动拍照</string>
+    <string name="pwdsetting_advance_noaoturecordpic__detail">输错密码时不自动记录照片</string>
+
+    <!-- 2015-03-31 -->
+    <string name="warring_openautopic">打开自动拍照功能，部分机型可能会有问题，请慎用。</string>
+    <string name="pwdsetting_advance_playwarringsound__title">输错密码告警声音</string>
+    <string name="pwdsetting_advance_playwarringsound__detail">输错密码时自动播放告警声音</string>
+    <string name="pwdsetting_advance_noplaywarringsound__title">输错密码告警声音</string>
+    <string name="pwdsetting_advance_noplaywarringsound__detail">输错密码时不播放告警声音</string>
+    <string name="pwdsetting_aboutour_apps_title">精品推荐</string>
+    <string name="pwdsetting_aboutour_apps_detail">全是我们的精品哦</string>
+    <string name="downloadtips">开始下载</string>
+
+    <!-- yfh 20150331 -->
+    <string name="pwdsetting_share_title">分享我们</string>
+    <string name="pwdsetting_share_detail">把密码锁介绍给咱的小伙伴</string>
+    <string name="pwdsetting_share_text">一锁在手，隐私无忧</string>
+
+    <!-- yfh 20150414 -->
+    <string name="new_app_title">密码锁发现新应用</string>
+    <string name="new_app_text">新安装了应用 360 ，建议加锁。</string>
+    <string name="new_app_btn">加锁</string>
+    <string name="version">当前版本：</string>
+    <string name="step_start">开始使用</string>
+    <string name="step_skip">跳过</string>
+
+    <!-- yfh 20150427 -->
+    <string name="app_title">密码锁</string>
+    <string name="box_safe_tip">所有加密文件将无法在其他地方显示</string>
+    <string name="main_tab_lock">应用锁</string>
+    <string name="main_tab_box">保险箱</string>
+    <string name="box_detail_file">已加密%1$d个</string>
+    <string name="box_detail_pic">已加密%1$d张</string>
+    <string name="box_title_pic">加密图片</string>
+    <string name="box_title_video">加密视频</string>
+    <string name="box_title_aduio">加密音频</string>
+    <string name="box_title_file">加密文件</string>
+    <string name="pop_main_log">拦截记录</string>
+    <string name="pop_main_set">设置</string>
+    <string name="normal_setting">常规设置</string>
+    <string name="try_to_open">试图打开</string>
+    <string name="number_pwd">数字密码</string>
+    <string name="gesure_pwd">手势密码</string>
+    <string name="forget_gesture">忘记手势</string>
+    <string name="forget_num">忘记密码</string>
+    <string name="title_set_normal">普通设置</string>
+    <string name="title_set_advanced">高级设置</string>
+    <string name="no_new_version">已经是最新版本</string>
+    <string name="sort_default">默认排序</string>
+    <string name="sort_alpha">名称排序</string>
+    <string name="sort_install">安装时间排序</string>
+    <string name="enter_double_exit">再按一次退出程序</string>
+    <string name="version_now">当前版本</string>
+    <string name="received_replies">收到%1$d条回复</string>
+
+</resources>

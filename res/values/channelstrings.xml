@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="channel_string">DEV</string>
+    <!-- <string name="channel_string">LockWiz</string> -->
+    <!-- <string name="channel_string">google</string> -->
+    <!-- <string name="channel_string">anzhi</string> -->
+    <!-- <string name="channel_string">hiapk</string> -->
+    <!-- <string name="channel_string">360</string> -->
+    <!-- <string name="channel_string">huawei</string> -->
+    <!-- <string name="channel_string">mi</string> -->
+    <!-- <string name="channel_string">91</string> -->
+
+
+    <!-- 华丽的分割线 -->
+
+
+    <!-- <string name="channel_string">qq</string> -->
+    <!-- <string name="channel_string">coolapk</string> -->
+    <!-- <string name="channel_string">sougou</string> -->
+    <!-- <string name="channel_string">mumayi</string> -->
+    <!-- <string name="channel_string">appchina</string> -->
+    <!-- <string name="channel_string">nearme</string> -->
+    <!-- <string name="channel_string">anzhuoapk</string> -->
+    <!-- <string name="channel_string">mopo</string> -->
+    <!-- <string name="channel_string">mgyun</string> -->
+    <!-- <string name="channel_string">paojiao</string> -->
+    <!-- <string name="channel_string">gfan</string> -->
+    <!-- <string name="channel_string">crossmo</string> -->
+    <!-- <string name="channel_string">nduoa</string> -->
+    <!-- <string name="channel_string">mogustore</string> -->
+    <!-- <string name="channel_string">appfun</string> -->
+    <!-- <string name="channel_string">163</string> -->
+    <!-- <string name="channel_string">baidu</string> -->
+    <!-- <string name="channel_string">meizu</string> -->
+    <!-- <string name="channel_string">wandoujia</string> -->
+    <!-- <string name="channel_string">samsung</string> -->
+    <!-- <string name="channel_string">coolchuan</string> -->
+    <!-- <string name="channel_string">kaiqi</string> -->
+    <!-- <string name="channel_string">lenovo</string> -->
+    <!-- <string name="channel_string">devcn</string> -->
+    <!-- <string name="channel_string">oppo</string> -->
+    <!-- <string name="channel_string">uc</string> -->
+
+</resources>

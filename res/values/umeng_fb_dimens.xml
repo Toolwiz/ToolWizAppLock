@@ -1,0 +1,24 @@
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <dimen name="umeng_fb_item_height">48dp</dimen>
+    <dimen name="umeng_fb_item_content_size">14sp</dimen>
+    <dimen name="umeng_fb_item_time_size">12sp</dimen>
+    <dimen name="umeng_fb_item_line_height">0.8dp</dimen>
+    <dimen name="umeng_fb_spinner_padding_left">12dp</dimen>
+    <dimen name="umeng_fb_record_btn_text_size">20sp</dimen>
+</resources>

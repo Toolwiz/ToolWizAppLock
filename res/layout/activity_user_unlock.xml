@@ -1,0 +1,86 @@
+<!--
+  Copyright (c) 2015 btows.com.
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lock_bg_green"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:gravity="center_vertical"
+        android:text="@string/user_unlock_text1"
+        android:textColor="@color/text_color_white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        
+        android:gravity="center_vertical"
+        android:text="@string/user_unlock_text2"
+        android:textColor="@color/text_color_white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/suosuo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_white"
+            android:gravity="center"
+            android:onClick="onClickEvent"
+            android:text="@string/user_unlock_btn_cancel"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_unlock"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_white"
+            android:gravity="center"
+            android:onClick="onClickEvent"
+            android:text="@string/user_unlock_btn_unlock"
+            android:textColor="@color/text_green"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
