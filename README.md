@@ -1,3 +1,5 @@
+[![Android Gems](http://www.android-gems.com/badge/Toolwiz/ToolWizAppLock.svg?branch=master)](http://www.android-gems.com/lib/Toolwiz/ToolWizAppLock)
+
 #ToolWizAppLock - Smart App Lock
 ##About
 
